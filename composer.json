@@ -30,7 +30,7 @@
         "hashids/hashids": "^2.0",
         "igaster/laravel-theme": "^1.16",
         "laracasts/utilities": "^3.0",
-        "laravel/framework": "5.6.x-dev as 5.6.3",
+        "laravel/framework": "5.6.x-dev as 5.6.4",
         "laravel/tinker": "^1.0",
         "lord/laroute": "dev-master as 2.4.6",
         "matriphe/iso-639": "^1.2",
@@ -54,10 +54,11 @@
         "filp/whoops": "^2.1",
         "friendsofphp/php-cs-fixer": "^2.8.0",
         "fzaninotto/faker": "^1.6",
+        "laravel/dusk": "^3.0",
         "mockery/mockery": "^1.0",
+        "nunomaduro/collision": "~1.1",
         "php-mock/php-mock-phpunit": "^2.0",
-        "phpunit/phpunit": "~6.4.0",
-        "nunomaduro/collision": "~1.1"
+        "phpunit/phpunit": "~6.4.0"
     },
     "autoload": {
         "classmap": [
@@ -103,10 +104,6 @@
         {
             "type": "git",
             "url": "https://github.com/arcdigital/eloquence-validable.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/arcdigital/framework.git"
         }
     ],
     "prefer-stable": true,
