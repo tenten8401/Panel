@@ -107,8 +107,8 @@ class Node extends Model implements CleansAttributes, ValidableContract
         'disk' => 'numeric|min:1',
         'disk_overallocate' => 'numeric|min:-1',
         'daemonBase' => 'regex:/^([\/][\d\w.\-\/]+)$/',
-        'daemonSFTP' => 'numeric|between:1024,65535',
-        'daemonListen' => 'numeric|between:1024,65535',
+        'daemonSFTP' => 'numeric|between:1,65535',
+        'daemonListen' => 'numeric|between:1,65535',
     ];
 
     /**
